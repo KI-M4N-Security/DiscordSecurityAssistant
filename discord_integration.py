@@ -16,7 +16,7 @@ from discord.ext import commands
 
 class DiscordLLMIntegration:
     def __init__(self):
-        self.discord_token = os.getenv("MTQ3MDQ0OTg4Mzk1MjcwOTcxNA.GELb3A.85d6D4V3UO9b7Wa8yqRuKnFkvLrustjmcnNORg")
+        self.discord_token = os.getenv("YOUR DISCORD TOKEN")
         self.ollama_url = "http://localhost:11434"
         self.mcp_servers = {
             "general": "mcp-general-tools",
