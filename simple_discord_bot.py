@@ -76,7 +76,7 @@ Example: `!ask what is a port scan?`
         await message.channel.send(status)
 
 async def main():
-    token = "MTQ3MDQ0OTg4Mzk1MjcwOTcxNA.GELb3A.85d6D4V3UO9b7Wa8yqRuKnFkvLrustjmcnNORg"
+    token = "YOURDISCORDTOKEN"
     bot = SimpleSecurityBot()
     
     try:
